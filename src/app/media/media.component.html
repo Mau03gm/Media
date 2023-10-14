@@ -1,0 +1,14 @@
+<div *ngIf="datosSize">
+    <h2>Datos de Tamaño</h2>
+    <ul>
+      <li *ngFor="let size of datosSize">{{ size }}</li>
+    </ul>
+  </div>
+  
+  <div *ngIf="datosHours">
+    <h2>Datos de Horas</h2>
+    <ul>
+      <li *ngFor="let hour of datosHours">{{ hour }}</li>
+    </ul>
+  </div>
+  
